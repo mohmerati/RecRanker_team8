@@ -12,7 +12,6 @@ for dataset_name in dataset_names:
 
     model_names = ['MF','LightGCN','MixGCF','SGL','SASRec','BERT4Rec', 'CL4SRec']
 
-
     if dataset_name == 'ml-100k':
         effect_num = 927
 
